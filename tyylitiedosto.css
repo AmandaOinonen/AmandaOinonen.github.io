@@ -1,3 +1,13 @@
+/* Ylätunniste */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  border: 2px solid red;
+}
+
 /* Palvelut */
 .services {
   padding: 50px 20px;
