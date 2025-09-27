@@ -49,13 +49,9 @@ button {
   padding: 10px 20px;
 }
 
-backround-color {
-  background-color: #6fa1d3;
-}
-
-@media (max-width: 700px) {
-  .contact-info {
-    flex-direction: column;
-    text-align: center;
-  }
-}
+footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #eee;
+      font-size: 0.9em;
+    }
