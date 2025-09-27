@@ -1,38 +1,62 @@
 <!DOCTYPE html>
 <html lang="fi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="tyylitiedosto.css">
+
     <title>Yhteystiedot</title>
 </head>
 <body>
 
-    <header>
+<header>
 <div class="logo">Nea Mäkelä TMI</div>
-</nav>
+<nav>
 <a href="etusivu.html">Etusivu</a>
 <a href="yhteystiedot.html">Yhteystiedot</a>
 <a href="referenssit.html">Referenssit</a>
 </nav>
 </header>
 
- </div>
+<section class="mihin yhteyttä">
+    <h2>Yhteystiedot</h2>
+    <p> Saat meihin yhteyden sähköpostitse tai alla olevan lomakkeen kautta. <br> </p>
+</section>
 
-    <h2>Ota yhteyttä</h2>
-    <p> Pidemmät kuljetukset sovitusti! Palaamme yhteydenottopyyntöön mahdollisimman pian.</p>
+<section class="yhteystiedot">
+<h3>Yhteystiedot</h3>
+<p>Puhelin: +358 458660969 <br> Sähköposti: <a href="mailto:nea.katariinamkl@gmail.com">nea.katariinamkl@gmail.com</a></p>
+</section>
+
+<section class="yhteydenottolomake">
+<h3>Kysyttävää?</h3>
+    <p>Palaamme yhteydenottopyyntöön viimeistään seuraavana arkipäivänä.</p>
     <form action="#" method="post">
+
+        <label for="message">Viesti:</label>
+        <textarea id="message" name="message" rows="7" style="width: 500px;" required></textarea><br>
+
         <label for="name">Nimi:</label>
         <input type="text" id="name" name="name" required><br>
 
         <label for="email">Sähköposti:</label>
         <input type="email" id="email" name="email" required><br>
 
-        <label for="message">Viesti:</label>
-        <textarea id="message" name="message" rows="5" required></textarea><br>
+        <br> <button type="submit">Lähetä</button> <br>
 
-        <button type="submit">Lähetä</button>
+        <p>Tietoja käytetään vain yhteydenottoon.</p>
     </form>
-</div>
+</section>
+
+<section class="sijainti">
+<iframe
+  src="https://maps.app.goo.gl/uL1CsgCV4xoVeZyv5"
+  width="100%" height="300" style="border:0;" allowfullscreen;>
+</iframe>
+</section>
+
+<footer>
+  &copy; 2025 Nea Mäkelä TMI
+</footer>
 
 </body>
 </html>

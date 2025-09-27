@@ -8,6 +8,10 @@ header {
   border: 2px solid red;
 }
 
+html {
+  font-family: "Libre Baskerville", serif;
+}
+
 /* Palvelut */
 .services {
   padding: 50px 20px;
@@ -31,4 +35,27 @@ header {
   background: #dceaf7;
   padding: 40px;
   border-radius: 8px;
+}
+
+/* Yhteystiedot */
+label {
+  display: block;
+  margin-top: 5px;
+  text-align: left;
+}
+
+button {
+ font-family: "Libre Baskerville", serif;
+  padding: 10px 20px;
+}
+
+backround-color {
+  background-color: #6fa1d3;
+}
+
+@media (max-width: 700px) {
+  .contact-info {
+    flex-direction: column;
+    text-align: center;
+  }
 }
