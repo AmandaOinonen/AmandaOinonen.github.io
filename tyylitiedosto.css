@@ -9,11 +9,6 @@ header {
 
 /*navigointi*/
 
-.valittu{
-  background :#333;
-  color :#fff;
-}
-
 /* Linkeistä boksit */
 .navbar a {
   text-decoration: none;
@@ -30,7 +25,7 @@ header {
 }
 
 /* Aktiivinen sivu */
-.navbar a.active {
+.navbar a.valittu {
   background: #333;
   color: #fff;
   font-weight: bold;
