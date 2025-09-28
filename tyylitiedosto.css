@@ -5,7 +5,11 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 40px;
-  border: 2px solid red;
+  border: 2px solid #a7201c;
+}
+
+html {
+  font-family: "Libre Baskerville", serif;
 }
 
 /* Palvelut */
@@ -32,3 +36,22 @@ header {
   padding: 40px;
   border-radius: 8px;
 }
+
+/* Yhteystiedot */
+label {
+  display: block;
+  margin-top: 5px;
+  text-align: left;
+}
+
+button {
+ font-family: "Libre Baskerville", serif;
+  padding: 10px 20px;
+}
+
+footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #eee;
+      font-size: 0.9em;
+    }
