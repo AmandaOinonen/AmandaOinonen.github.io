@@ -9,6 +9,11 @@ header {
 
 /*navigointi*/
 
+.valittu{
+  background :#333;
+  color :#fff;
+}
+
 /* Linkeistä boksit */
 .navbar a {
   text-decoration: none;
