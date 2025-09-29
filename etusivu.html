@@ -10,12 +10,30 @@
 
 <header>
 <div class="logo">Nea Mäkelä TMI</div>
-<nav>
+
+<nav class="navbar">
 <a href="etusivu.html">Etusivu</a>
 <a href="yhteystiedot.html">Yhteystiedot</a>
 <a href="referenssit.html">Referenssit</a>
 </nav>
 </header>
+
+
+<!--aktiivinen sivu tummempana-->
+<script>
+  const currentPage = window.location.pathname.split("/").pop();
+
+  document.querySelectorAll(".navbar a").forEach(link => {
+    const href = link.getAttribute("href");
+
+    if (
+      (href === "etusivu.html" && (currentPage === "" || currentPage === "etusivu.html")) ||
+      href === currentPage
+    ) {
+      link.classList.add("valittu");
+    }
+  });
+</script>
 
 <section class="hero">
 <div class="hero-text">
@@ -33,3 +51,8 @@
       <div class="service">Palvelu 4</div>
     </div>
   </section>
+
+
+<footer>
+  &copy; 2025 Nea Mäkelä TMI
+</footer>
