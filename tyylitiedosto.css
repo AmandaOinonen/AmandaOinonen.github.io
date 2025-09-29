@@ -31,6 +31,7 @@ header {
   font-weight: bold;
 }
 
+/* Fontti koko sivustolle */
 html {
   font-family: "Libre Baskerville", serif;
 }
@@ -82,4 +83,59 @@ footer {
       padding: 20px;
       background-color: #eee;
       font-size: 0.9em;
+    }
+
+.sijainti {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.yhteystiedot {
+  text-align: left;
+}
+
+.figure {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.mihinyhteyttä {
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: #A7201C;
+  min-height: 100px;
+}
+
+.mihinyhteyttä h2{
+  color: #eee
+}
+
+.taustakuva {
+      display: flex;
+      justify-content: flex-end; /* työnnetään oikealle */
+      align-items: flex-start;
+      gap: 40px; /* väli tekstin ja kartan väliin */
+      margin-right: 60px; /* ettei mene kiinni oikeaan reunaan */
+      padding: 40px 0;
+      background: #f2f4f5;
+      margin-right: 60px;
+      justify-content: flex-start;
+    }
+
+    .yhteystiedot {
+      max-width: 350px;
+    }
+
+    .kartta {
+      max-width: 450px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: 0;
+      border-radius: 8px;
     }
