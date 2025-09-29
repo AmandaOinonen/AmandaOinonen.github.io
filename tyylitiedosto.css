@@ -117,11 +117,14 @@ footer {
       display: flex;
       justify-content: flex-end; /* työnnetään oikealle */
       align-items: flex-start;
-      gap: 40px; /* väli tekstin ja kartan väliin */
       margin-right: 60px; /* ettei mene kiinni oikeaan reunaan */
       padding: 40px 0;
       background: #f2f4f5;
       margin-right: 60px;
+      margin-left: 60px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      gap: 40px; /* väli tekstin ja kuvan väliin */
       justify-content: flex-start;
     }
 
