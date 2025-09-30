@@ -32,7 +32,7 @@ header {
 }
 
 /* Fontti koko sivustolle */
-html {
+.html {
   font-family: "Libre Baskerville", serif;
 }
 
