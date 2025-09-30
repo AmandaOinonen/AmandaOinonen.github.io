@@ -7,6 +7,12 @@ header {
   padding: 10px 40px;
 }
 
+body {
+  background-color: #fdf5ec;
+  margin: 0;
+  padding: 0;
+}
+
 /*navigointi*/
 
 /* Linkeistä boksit */
@@ -34,6 +40,14 @@ header {
 /* Fontti koko sivustolle */
 .html {
   font-family: "Libre Baskerville", serif;
+}
+
+/*logokuva*/
+
+.hero-kuva {
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
 }
 
 /* Palvelut */
