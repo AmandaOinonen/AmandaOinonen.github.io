@@ -114,11 +114,9 @@ footer {
   color: #eee
 }
 
-.taustakuva {
+.kuva {
       display: flex;
-      justify-content: flex-end; /* työnnetään oikealle */
       align-items: flex-start;
-      margin-right: 60px; /* ettei mene kiinni oikeaan reunaan */
       padding: 40px 0;
       background: #f2f4f5;
       margin-right: 60px;
@@ -142,4 +140,14 @@ footer {
       height: 300px;
       border: 0;
       border-radius: 8px;
+    }
+
+    .auto {
+      max-width: 200px;
+      border-radius: 8px;
+      margin-left: 80px;
+    }
+
+    .yhteydenottolomake {
+     justify-content: flex-end; /* työnnetään oikealle */
     }
