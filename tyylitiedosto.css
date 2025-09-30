@@ -205,3 +205,23 @@ footer {
     body {
       font-size: 18px;
     }
+
+    /*referenssit*/
+    
+    .refotsikko{
+    text-align: center;
+    }
+    
+    main {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: #fdf5ec; 
+    }
+    h2 {
+      color: #000000;
+    }
+    .reference {
+      border-bottom: 1px solid #ccc;
+      padding: 15px 0;
+      }
