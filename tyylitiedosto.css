@@ -36,7 +36,7 @@ body {
 
 /* Aktiivinen sivu */
 .navbar a.valittu {
-  background: #333;
+  background: #8e8e8e;
   color: #fff;
   font-weight: bold;
 }
@@ -44,6 +44,7 @@ body {
 /* Fontti koko sivustolle */
 .html {
   font-family: "Libre Baskerville", serif;
+  font-size: 20px;
 }
 
 /*logokuva*/
@@ -141,11 +142,11 @@ footer {
 
 .mihinyhteyttä {
   text-align: center;
-  margin-top: 10px;
-  padding-top: 10px;
+  margin-top: 20px;
+  padding-top: 20px;
   padding-bottom: 20px;
   background-color: #A7201C;
-  min-height: 100px;
+  height: 150px;
 }
 
 .mihinyhteyttä h2{
@@ -187,5 +188,20 @@ footer {
     }
 
     .yhteydenottolomake {
-     justify-content: flex-end; /* työnnetään oikealle */
+     
+     background-color: #A7201C; /* punainen tausta */
+     color: white;              /* valkoinen teksti */
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 25px 50px;
+      border-radius: 10px;
+      margin-right: 100px;
+      margin-left: 100px;
+      margin-top: 60px;
+      margin-bottom: 100px;
+      text-align: left;
+    }
+
+    body {
+      font-size: 18px;
     }
