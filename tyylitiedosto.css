@@ -94,6 +94,26 @@ body {
  transition: background-color 0.3s ease; 
 }
 
+.painikeytref {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.painikeytref a {
+ display: inline-block;
+ background-color: #A7201C; /* punainen tausta */
+ color: white;              /* valkoinen teksti */
+ padding: 12px 24px;
+ border-radius: 8px;
+ text-decoration: none;     /* poistaa alleviivauksen */
+ font-weight: bold;
+ font-size: 18px;
+ transition: background-color 0.3s ease; 
+  position: absolute;
+  top: 175px;
+  right: 230px;
+}
+
 /*tekstiosio etusivu*/
 .hero {
 text-align: center;
@@ -200,6 +220,7 @@ iframe {
       margin: 30px auto;
       padding: 20px;
       background-color: #fdf5ec; 
+      border-radius: 10px;
     }
     h2 {
       color: #000000;
@@ -207,4 +228,5 @@ iframe {
     .reference {
       border-bottom: 1px solid #ccc;
       padding: 15px 0;
+    
       }
