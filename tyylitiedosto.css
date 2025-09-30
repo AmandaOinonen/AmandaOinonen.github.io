@@ -99,8 +99,6 @@ body {
  transition: background-color 0.3s ease; 
 }
 
-
-
 /* Yhteystiedot */
 label {
   display: block;
@@ -136,7 +134,7 @@ footer {
 .mihinyhteyttä {
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #A7201C;
@@ -155,9 +153,8 @@ footer {
   gap: 20px; /* väli tekstin ja kuvan väliin */
   margin: 0 auto; /* keskitys */
   justify-content: center; /* keskitys */
-  max-width: 350px;
   text-align: left;
-    }
+  }
 
 .kartta {
       max-width: 450px;
@@ -192,7 +189,7 @@ iframe {
     }
 
 .yhteydenottolomake {
-  margin-top: 200px;
+  margin-top: 50px;
   margin-bottom: 100px;
 }
 
