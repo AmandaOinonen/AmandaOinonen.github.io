@@ -56,9 +56,10 @@ header {
 }
 
 .service {
-  background: #dceaf7;
+  background: #A7201C;
   padding: 40px;
   border-radius: 8px;
+  color:white;
 }
 
 /* Yhteystiedot */
