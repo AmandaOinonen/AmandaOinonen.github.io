@@ -230,3 +230,58 @@ iframe {
       padding: 15px 0;
     
       }
+
+  @media (max-width: 600px) { 
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+
+  .navbar a {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+  }
+
+  .hero-kuva {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .painikeyt a,
+  .painikeytref a {
+    font-size: 16px;
+    padding: 10px 20px;
+    position: static;
+    display: block;
+    margin: 10px auto;
+  }
+
+  .yhteystiedot {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .kuva {
+    margin: 20px 0;
+    max-width: 80%;
+  }
+
+  .yhteydenottolomake {
+    padding: 20px;
+    max-width: 100%;
+  }
+
+  main {
+    padding: 10px;
+    margin: 20px auto;
+  }
+  }
