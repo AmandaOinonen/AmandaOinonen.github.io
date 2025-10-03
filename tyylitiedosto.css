@@ -269,9 +269,31 @@ iframe {
   }
 
   .yhteydenottolomake {
-    padding: 20px;
-    max-width: 100%;
-  }
+  padding: 15px 20px;       /* pienempi sisäinen tila */
+  max-width: 80%;
+  font-size: 16px;          /* hieman pienempi fontti */
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.yhteydenottolomake h2 {
+  font-size: 20px;          /* otsikon fonttikoko pienemmäksi */
+  margin-bottom: 15px;
+}
+
+.yhteydenottolomake label,
+.yhteydenottolomake input,
+.yhteydenottolomake textarea,
+.yhteydenottolomake button {
+  font-size: 14px;          /* lomakekenttien fonttikoko pienemmäksi */
+  margin-bottom: 10px;      /* väliä kenttien väliin */
+}
+
+input, textarea {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
 
   .painikeyt {
   text-align: center;
@@ -282,7 +304,5 @@ iframe {
  padding: 6px 12px;
  border-radius: 8px;
  font-size: 14px;
- 
 }
-
-  }
+}
