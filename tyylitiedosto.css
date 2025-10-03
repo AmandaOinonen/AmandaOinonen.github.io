@@ -136,7 +136,7 @@ footer {
   padding-bottom: 20px;
   background-color: #A7201C;
   height: 150px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .mihinyhteyttä h1{
@@ -174,7 +174,7 @@ button {
 }
 
 .yhteydenottolomake {
-    font-size: 18px;
+    font-size: 16px;
     background-color: #A7201C;
     color: white;              
     max-width: 700px;
@@ -198,7 +198,7 @@ button {
 /* kartta */
 .sijainti {
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 60px;
   margin-bottom: 20px;
 }
@@ -269,15 +269,15 @@ iframe {
   }
 
   .yhteydenottolomake {
-  padding: 15px 20px;       /* pienempi sisäinen tila */
+  padding: 15px 20px;       
   max-width: 80%;
-  font-size: 16px;          /* hieman pienempi fontti */
+  font-size: 16px;          
   margin-top: 30px;
   margin-bottom: 50px;
 }
 
 .yhteydenottolomake h2 {
-  font-size: 20px;          /* otsikon fonttikoko pienemmäksi */
+  font-size: 20px;          
   margin-bottom: 15px;
 }
 
@@ -287,6 +287,12 @@ iframe {
 .yhteydenottolomake button {
   font-size: 14px;          /* lomakekenttien fonttikoko pienemmäksi */
   margin-bottom: 10px;      /* väliä kenttien väliin */
+}
+
+.mihinyhteyttä {
+  height: auto;             /* automaattinen korkeus */
+  padding: 20px;            /* enemmän sisäistä tilaa */
+  font-size: 14px;          /* hieman pienempi fontti */
 }
 
 input, textarea {
