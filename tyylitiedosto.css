@@ -203,6 +203,7 @@ main {
   padding: 20px;
   background-color: #fdf5ec; 
   border-radius: 10px;
+  position: relative;
 }
 
     h2 {
@@ -230,7 +231,7 @@ main {
   font-weight: bold;
   font-size: 18px;
   transition: background-color 0.3s ease; 
-  position: fixed;
+  position: absolute;
   top: 175px;
   right: 230px;
 }
