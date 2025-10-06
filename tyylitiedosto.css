@@ -211,17 +211,19 @@ iframe {
 
     /*referenssit*/
     
-    .refotsikko{
-    text-align: center;
-    }
-    
-    main {
-      max-width: 800px;
-      margin: 30px auto;
-      padding: 20px;
-      background-color: #fdf5ec; 
-      border-radius: 10px;
-    }
+    .refotsikko {
+  text-align: center;
+}
+
+/* referenssit pääsisältö */
+main {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fdf5ec; 
+  border-radius: 10px;
+}
+
     h2 {
       color: #000000;
     }
@@ -230,6 +232,7 @@ iframe {
       padding: 15px 0;
     
       }
+
 
   /*mobiilikoko*/
 
@@ -311,4 +314,37 @@ input, textarea {
  border-radius: 8px;
  font-size: 16px;
 }
+}
+@media (max-width: 600px) {
+  .referenssit-sivu main {
+    padding: 10px;
+    margin: 10px;
+    font-size: 14px;
+  }
+
+  .refotsikko h1 {
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .reference {
+    padding: 10px;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .painikeytref {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .painikeytref a {
+    position: static; /* poista absoluuttinen sijoittelu */
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 10px 20px;
+    display: inline-block;
+  }
 }
