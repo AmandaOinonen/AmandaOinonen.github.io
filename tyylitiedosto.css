@@ -94,25 +94,6 @@ body {
  transition: background-color 0.3s ease; 
 }
 
-.painikeytref {
-  text-align: center;
-  margin: 30px 0;
-}
-
-.painikeytref a {
- display: inline-block;
- background-color: #A7201C; /* punainen tausta */
- color: white;              /* valkoinen teksti */
- padding: 12px 24px;
- border-radius: 8px;
- text-decoration: none;     /* poistaa alleviivauksen */
- font-weight: bold;
- font-size: 18px;
- transition: background-color 0.3s ease; 
-  position: absolute;
-  top: 175px;
-  right: 230px;
-}
 
 /*tekstiosio etusivu*/
 .hero {
@@ -232,6 +213,27 @@ main {
       padding: 15px 0;
     
       }
+  /*ota yhteyttä painike referenssisivulle*/
+
+  .painikeytref {
+  text-align: center;
+  margin: 30px 0;
+}
+
+  .painikeytref a {
+  display: inline-block;
+  background-color: #A7201C; /* punainen tausta */
+  color: white;              /* valkoinen teksti */
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;     /* poistaa alleviivauksen */
+  font-weight: bold;
+  font-size: 18px;
+  transition: background-color 0.3s ease; 
+  position: fixed;
+  top: 175px;
+  right: 230px;
+}
 
 
   /*mobiilikoko*/
