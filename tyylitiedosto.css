@@ -256,18 +256,24 @@ main {
     padding: 10px 20px;
   }
 
- .navbar {
-  flex-direction: column;
+  header, .navbar {
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
     text-align: center;
-  } 
+    gap: 10px;
+    padding: 10px 0;
+  }
 
   .navbar a {
     display: block;
     margin: 10px 0;
     padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    max-width: 300px;
   }
+
 
   .hero-kuva {
     max-width: 100%;
@@ -334,26 +340,6 @@ input, textarea {
  border-radius: 8px;
  font-size: 16px;
 }
-
- header, .navbar {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 10px;
-    padding: 10px 0;
-  }
-
-  .navbar a {
-    display: block;
-    margin: 8px 0;
-    padding: 10px;
-    font-size: 16px;
-    background-color: #A7201C;
-    color: white;
-    border-radius: 6px;
-    text-decoration: none;
-    max-width: 300px;
-  }
 
   main {
     padding: 15px;
