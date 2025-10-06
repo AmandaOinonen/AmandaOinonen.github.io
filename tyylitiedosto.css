@@ -256,6 +256,13 @@ main {
     padding: 10px 20px;
   }
 
+ .navbar {
+  flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  } 
+
   .navbar a {
     display: block;
     margin: 10px 0;
@@ -327,21 +334,29 @@ input, textarea {
  border-radius: 8px;
  font-size: 16px;
 }
-  body.referenssit {
-    font-size: 16px;
-    line-height: 1.6;
-    padding: 10px;
-    background-color: #fdf5ec; /* vaalea tausta säilyy */
+
+ header, .navbar {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 10px 0;
   }
 
-  .refotsikko h1 {
-    font-size: 26px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  .navbar a {
+    display: block;
+    margin: 8px 0;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #A7201C;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    max-width: 300px;
   }
 
   main {
-    padding: 20px 15px;
+    padding: 15px;
     margin: 0 auto;
   }
 
@@ -351,20 +366,32 @@ input, textarea {
     text-align: center;
   }
 
-  .reference p {
-    margin: 6px 0;
-    
-  }
- .painikeytref {
-    position: static;
-    margin-top: 20px;
+  .painikeytref {
+    position: static;         /* ei absolute mobiilissa */
+    margin: 20px auto;
     text-align: center;
   }
 
   .painikeytref a {
+    position: static;
+    display: inline-block;
     width: 100%;
     max-width: 300px;
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #A7201C;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
   }
 
+  .reference {
+    padding: 10px 0;
+  }
 
-}
+  .reference p {
+    margin: 6px 0;
+    font-size: 15px;
+  }
+ }
