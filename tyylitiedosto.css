@@ -314,36 +314,23 @@ input, textarea {
  border-radius: 8px;
  font-size: 16px;
 }
-}
-  .referenssit-sivu main {
-    padding: 10px;
-    margin: 10px;
-    font-size: 14px;
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightgray;
   }
 
   .refotsikko h1 {
     font-size: 24px;
-    padding: 10px;
-    text-align: center;
-  }
-
-  .reference {
-    padding: 10px;
-    font-size: 14px;
-    border-bottom: 1px solid #ccc;
-  }
-
-  .painikeytref {
-    text-align: center;
-    margin: 20px 0;
+    color: blue;
   }
 
   .painikeytref a {
-    position: static; /* poista absoluuttinen sijoittelu */
+    position: static;
+    display: block;
     width: 100%;
-    box-sizing: border-box;
     font-size: 16px;
-    padding: 10px 20px;
-    display: inline-block;
+    text-align: center;
   }
+}
+
 
