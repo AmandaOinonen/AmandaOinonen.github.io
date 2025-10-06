@@ -227,7 +227,10 @@ main {
   .painikeytref {
   text-align: center;
   margin: 30px 0;
-  position: relative;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+
 }
 
   .painikeytref a {
@@ -241,8 +244,6 @@ main {
   font-size: 18px;
   transition: background-color 0.3s ease; 
   position: absolute;
-  top: 130px;
-  right: 200px;
 }
 
 
