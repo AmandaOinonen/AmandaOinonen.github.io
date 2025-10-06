@@ -304,7 +304,7 @@ input, textarea {
   box-sizing: border-box;
 }
 
-  .painikeyt {
+.painikeyt {
   text-align: center;
   margin: 30px 0;
 }
@@ -314,5 +314,70 @@ input, textarea {
  border-radius: 8px;
  font-size: 16px;
 }
+  body {
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 10px;
+    background-color: #fdf5ec; /* vaalea tausta säilyy */
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 10px;
+    text-align: center;
+  }
+
+  .logo {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .refotsikko h1 {
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  main {
+    padding: 20px 15px;
+    margin: 0 auto;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .reference {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 8px;
+  }
+
+  .reference p {
+    margin: 6px 0;
+  }
+
+  .painikeytref {
+    text-align: center;
+    margin: 30px 0;
+  }
+
+  .painikeytref a {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    padding: 14px 20px;
+    background-color: #A7201C;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+  }
 
 
+}
