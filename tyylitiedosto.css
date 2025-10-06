@@ -214,6 +214,14 @@ main {
       padding: 15px 0;
     
       }
+
+    .refotsikko {
+    color: white;
+  }
+
+   .referenssit.html {
+      background-color: #A7201C;
+    }
   /*ota yhteyttä painike referenssisivulle*/
 
   .painikeytref {
