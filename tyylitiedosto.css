@@ -248,6 +248,7 @@ main {
 
 
   /*mobiilikoko*/
+  /*yhteiset*/
 
   @media (max-width: 600px) { 
   header {
@@ -274,7 +275,7 @@ main {
     max-width: 300px;
   }
 
-
+/*etusivu*/
   .hero-kuva {
     max-width: 100%;
     margin: 0 auto;
@@ -285,6 +286,8 @@ main {
     max-width: 100%;
     padding: 0 10px;
   }
+
+  /*yhteystiedotsivu*/
 
   .yhteystiedot {
     flex-direction: column;
@@ -330,6 +333,8 @@ input, textarea {
   box-sizing: border-box;
 }
 
+/*ota yhteyttä painike*/
+
 .painikeyt {
   text-align: center;
   margin: 30px 0;
@@ -341,6 +346,8 @@ input, textarea {
  font-size: 16px;
 }
 
+/*referenssit*/
+
   main {
     padding: 15px;
     margin: 0 auto;
@@ -351,6 +358,7 @@ input, textarea {
     margin-bottom: 15px;
     text-align: center;
   }
+/*ota yhteyttä painike referenssisivulle*/
 
   .painikeytref {
     position: static;         /* ei absolute mobiilissa */
