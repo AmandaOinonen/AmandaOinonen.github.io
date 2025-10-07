@@ -107,8 +107,9 @@ footer {
       font-size: 0.9em;
     }
 .täältälinkki {
+    text-align: center;
      color: #A7201C
-     text-align: center;
+     
     }
 
 /*yhteystiedot sivu*/
